@@ -1,0 +1,15 @@
+﻿@prefix cur: <http://example.com/CS1/> .
+_:c1 cur:code "CSE6003".
+_:c1 cur:title "Web Services".
+_:c1 cur:type "PE".
+_:c1 cur:sem 1.
+
+_:c2 cur:code "CSE6001".
+_:c2 cur:title "SOA".
+_:c2 cur:type "PE".
+_:c2 cur:sem 2.
+
+_:c3 cur:code "CSE6002".
+_:c3 cur:title "Multicore".
+_:c3 cur:type "PC".
+_:c3 cur:sem 3.

@@ -1,0 +1,25 @@
+﻿PREFIX curr: <http://example.com/CS1/>
+SELECT ?title ?code
+WHERE {
+?c curr:title ?title . ?c curr:code ?code
+}
+
+
+PREFIX curr: <http://example.com/CS1/>
+SELECT ?title ?type
+WHERE {
+?c curr:title ?title . ?c curr:type ?type FILTER regex(?type, "PC")
+}
+
+
+PREFIX curr: <http://example.com/CS1/>
+SELECT ?title ?type
+WHERE {
+?c curr:title ?title . ?c curr:type ?type FILTER regex(?title, "^W")
+}
+
+PREFIX curr: <http://example.com/CS1/>
+SELECT ?title ?type
+WHERE {
+?c curr:title ?title . ?c curr:type ?type FILTER regex(?title, "s$")
+}
